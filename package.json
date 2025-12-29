@@ -1,0 +1,26 @@
+{
+  "name": "myjourney",
+  "version": "1.0.0",
+  "description": "This is my personal full-stack project showcasing my work and experience.",
+  "private": true,
+  "scripts": {
+    "start:frontend": "cd apps/frontend/frontend && ng serve",
+    "start:backend": "cd apps/backend/Backend && dotnet run",
+    "start:e2e": "cd apps/e2e && npx playwright test --watch",
+    "start:all": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManWithMachine/MyJourney.git"
+  },
+  "keywords": [],
+  "author": "Nemanja Bojović",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManWithMachine/MyJourney/issues"
+  },
+  "homepage": "https://github.com/ManWithMachine/MyJourney#readme"
+}
