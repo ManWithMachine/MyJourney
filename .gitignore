@@ -1,0 +1,15 @@
+# Node / frontend
+node_modules/
+dist/
+.env
+.DS_Store
+
+# Visual Studio / C# / backend
+bin/
+obj/
+.vscode/
+*.user
+*.suo
+
+# Playwright
+playwright-report/
