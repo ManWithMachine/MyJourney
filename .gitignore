@@ -13,3 +13,6 @@ obj/
 
 # Playwright
 playwright-report/
+
+# IDE Setup
+.idea/
